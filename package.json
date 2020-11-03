@@ -1,0 +1,18 @@
+{
+  "name": "landscapes-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "landscape.js",
+  "dependencies": {
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "8.0.1"
+  },
+  "scripts": {
+    "start": "node landscape.js",
+    "test": "mocha"
+  },
+  "author": "oftheheadland",
+  "license": "ISC"
+}
