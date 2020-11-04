@@ -14,7 +14,8 @@ const outputFile = 'landscapes.txt';
 // landscape
 // landscape2
 // etc.
-search('landscape', count);
+const category = 'landscape';
+search(category, count);
 
 // all models available through artbreeder API
 const allModels = [
