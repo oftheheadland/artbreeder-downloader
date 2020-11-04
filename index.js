@@ -1,22 +1,6 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 
-// TODO: add Neek and function that will filter duplicates out of output file
-
-// Change this to the desired amount of requests
-// each request returns 24 urls which are appended
-let count = 3;
-
-// name of file that will either be created or appended to with 1 URL per line
-const outputFile = 'landscapes.txt';
-
-// Use any value from the pairs object below as argument 1
-// landscape
-// landscape2
-// etc.
-const category = 'landscape';
-search(category, count);
-
 // all models available through artbreeder API
 const allModels = [
   'general',
@@ -42,6 +26,22 @@ const pairs = {
   furry: 'furries',
   anime: 'anime_portraits',
 };
+
+// TODO: add Neek and function that will filter duplicates out of output file
+
+// Change this to the desired amount of requests
+// each request returns 24 urls which are appended
+let count = 3;
+
+// name of file that will either be created or appended to with 1 URL per line
+const outputFile = 'landscapes.txt';
+
+// Use any value from the pairs object below as argument 1
+// landscape
+// landscape2
+// etc.
+const category = 'landscape';
+search(category, count);
 
 // fetch images from artbreeder
 function search(category, count) {
