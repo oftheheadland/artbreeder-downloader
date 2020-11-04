@@ -1,8 +1,8 @@
 {
-  "name": "landscapes-downloader",
+  "name": "artbreeder-downloader",
   "version": "1.0.0",
   "description": "",
-  "main": "landscape.js",
+  "main": "index.js",
   "dependencies": {
     "node-fetch": "2.6.0"
   },
@@ -10,7 +10,7 @@
     "mocha": "8.0.1"
   },
   "scripts": {
-    "start": "node landscape.js",
+    "start": "node index.js",
     "test": "mocha"
   },
   "author": "oftheheadland",
